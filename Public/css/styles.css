@@ -1,0 +1,48 @@
+header {
+    background-color: #EAC926;
+};
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #ebebeb;
+};
+
+
+h3 {
+    font-size: 24px;
+    color: #03264C;
+};
+
+.precios {
+    font-size: 18px;
+    color: #39b54a;
+};
+
+.descuentos {
+    font-size: 16px;
+    color: #39b54a;
+};
+
+.descripciones {
+    font-size: 16px;
+    color: #666;
+};
+
+.burger-menu {
+    text-align: center;
+};
+
+.icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+};
+
+footer {
+    text-align: center;
+};
+
+.copyright {
+    color: #666;
+} 
