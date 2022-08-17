@@ -1,7 +1,7 @@
-@media (min-width:460px) {}
-
-@media (min-width:768px) {}
-
+@media (min-width:361px) {
+}
+@media (min-width:769px) {  
+}
 header {
     background-color: #EAC926;
 };
@@ -13,10 +13,6 @@ header {
     top: 10%;
     bottom: 10%;
 };
-
-#nav-bar {};
-
-#login-bar {};
 
 .burger-menu {
     color: white;
@@ -35,6 +31,15 @@ body {
     font-size: 12px;
     background-color: #ebebeb;
 };
+
+main {
+text-align: center;
+width: 90%;
+margin: 10px;
+border: solid 1px #ebebeb;
+padding: 15px;
+box-sizing: content-box;
+}
 
 
 h3 {
@@ -57,7 +62,7 @@ h3 {
     color: #666;
 };
 
-button {
+.icon {
     font-size: 2em;
     margin-bottom: 10px;
     color: #1259c3;
