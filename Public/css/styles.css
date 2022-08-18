@@ -1,9 +1,23 @@
-@media (min-width:361px) {
-}
-@media (min-width:769px) {  
-}
+* {
+    box-sizing: border-box;
+};
+
 header {
     background-color: #EAC926;
+};
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #ebebeb;
+};
+
+h3 {
+    font-size: 24px;
+};
+
+p {
+    font-size: 12px;
 };
 
 #search-bar {
@@ -17,34 +31,21 @@ header {
 .burger-menu {
     color: white;
     text-align: center;
-    font-size: 24px;
-    border-radius: 3px;
-    padding-left: 10px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    width: fit-content;
-    margin: 0 auto;
-};
-
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    background-color: #ebebeb;
+    font-size: 18px;
+    background-color: #03264C;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    display: block;
 };
 
 main {
-text-align: center;
-width: 90%;
-margin: 10px;
-border: solid 1px #ebebeb;
-padding: 15px;
-box-sizing: content-box;
-}
-
-
-h3 {
-    font-size: 24px;
-    color: #03264C;
+    text-align: center;
+    width: 90%;
+    margin: 10px;
+    border: solid 1px #ebebeb;
+    padding: 15px;
+    box-sizing: content-box;
 };
 
 .precios {
@@ -75,3 +76,11 @@ footer {
 .copyright {
     color: #666;
 };
+
+@media (min-width:361px) {
+    display: block;
+}
+
+@media (min-width:769px) {
+    display: block;
+}

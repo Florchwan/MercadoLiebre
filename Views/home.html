@@ -1,56 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mercado Liebre</title>
     <link href="css/styles.css" rel="stylesheet">
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
 </head>
 <body>
     <header>
-        <img src="../public/images/logo-mercado-liebre.svg" width="360" alt="Logo">
+        <div class ="logo">
+        <img src="../public/images/logo-mercado-liebre.svg" width="360" alt="Logo de Mercado Liebre">
+        </div>
         <div id="search-bar">
             <input type="search" name="busqueda" placeholder="Buscar productos, marcas">  
         </div>
         <button><i class="fas fa-search"></i></button>
         <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
-
         <nav>
-            <ul id="nav-bar">
+            <ul id="nav-bar" type="none">
                 <li> <a href="#"> Ofertas </a></li>
                 <li> <a href="#"> Tiendas Oficiales </a></li>
                 <li> <a href="#"> Vender </a></li>
                 <li> <a href="#"> Ayuda </a></li>
+        
         </nav>
         </ul>
-
         <nav>
-            <ul id="login-bar">
+            <ul id="login-bar" type="none">
                 <li> <a href="#"> Creá tu cuenta<i class="far fa-address-card"></i></a></li>
                 <li> <a href="#"> Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
                 <li> <a href="#"> Mis compras<i class="fas fa-shopping-basket"></i></a></li>
             </ul>
         </nav>
-        <div class="burger-menu">
-            <i class="fas fa-bars"></i>
+       <div class="burger-menu">
+          <i class="fas fa-bars"></i>
         </div>
     </header>
-    <section>
+    <section class="banner">
         <img src="../public/images/img-home-banner.jpg" alt="mercadoliebre home">
     </section>
-
     <main>
-        <section>
+        <section class="last-visit">
             <h3> Basado en tu última visita </h3>
+            <div class="products">
             <article>
                 <img src="../public/images/img-cafetera-moulinex.jpg" width="360" alt="Cafetera">
-                
                 <p class="precios"><i class="fas fa-solid fa-truck"> $6.770 </i></p>
                 <p class="descuentos"> 40% OFF </p>
                 <h4 class="descripcion"> Cafetera Moulinex </h4>
@@ -73,10 +71,11 @@
                 <p class="descuentos"> 5% off </p>
                 <h4 class="descripcion"> SmartTv Samsung 43" </h4>
             </article>
+            </div>
         </section>
-
-        <section>
+        <section class="offers">
             <h3> Sección de Ofertas </h3>
+            <div class="products">
             <article>
                 <img src="../public/images/img-cafetera-moulinex.jpg" width="360" alt="Cafetera">
                 <p class="precios"><i class="fas fa-solid fa-truck"> $6.770 </i></p>
@@ -101,11 +100,11 @@
                 <p class="descuentos"> 5% off </p>
                 <h4 class="descripcion"> SmartTv Samsung 43" </h4>
             </article>
+        </div>
         </section>
     </main>
 
     <footer>
-        <section>
             <ul type="none">
                 <li>
                     <i class="fas fa-credit-card"></i>
@@ -126,7 +125,7 @@
                 <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
                     porque estás siempre protegid@.</p>
                 <li>
-                    <p class="copyright"> Copyright © 1999-2020 MercadoLiebre S.R.L. </p>
+                    <h4 class="copyright"> Copyright © 1999-2020 MercadoLiebre S.R.L. </h4>
                 </li>
             </ul>
         </section>
