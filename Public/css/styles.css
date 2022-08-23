@@ -1,16 +1,21 @@
 * {
+    margin: 0 px;
+    padding: 0 px;
     box-sizing: border-box;
 };
 
+
 header {
-    background-color: #EAC926;
+    background-color:#EAC926;
 };
 
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    background-color: #ebebeb;
+    background-color: #ebebeb; 
 };
+
+
 
 h3 {
     font-size: 24px;
@@ -28,7 +33,11 @@ p {
     bottom: 10%;
 };
 
-.burger-menu {
+#nav-bar {};
+
+#login {};
+
+div.burger-menu {
     color: white;
     text-align: center;
     font-size: 18px;
@@ -43,7 +52,7 @@ main {
     text-align: center;
     width: 90%;
     margin: 10px;
-    border: solid 3px #ebebeb;
+    border: 3px solid #ebebeb;
     padding: 15px;
     box-sizing: content-box;
 };
@@ -58,9 +67,12 @@ main {
     color: #39b54a;
 };
 
+
+
 .product-info {
     display:flex;
-}
+};
+
 
 .descripciones {
     font-size: 16px;
