@@ -1,18 +1,23 @@
 * {
-    margin: 0 px;
-    padding: 0 px;
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
 
 header {
     background-color:#EAC926;
+    display: flex; 
+    
 }
+
 
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     background-color: #ebebeb; 
+    margin: 0;
+    
 }
 
 
@@ -30,28 +35,51 @@ p {
     margin: 8px;
     top: 10%;
     bottom: 10%;
+    display: block;
+   
 }
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.container nav{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.caja1 {
+display: flex;
+}
+
+
 
 div.burger-menu {
     color: white;
     text-align: center;
-    font-size: 18px;
-    background-color: #03264C;
-    width: 20px;
-    height: 20px;
+    font-size: 24px;
+    background-color: #1259c3;
+    padding: 5px 10px;
+    border-radius: 3px;
+    width: fit-content;
     margin: auto;
-    display: block;
+    margin-bottom: 10px;
+    
 }
 
 main {
     text-align: center;
     width: 90%;
-    margin: 10px;
+    margin: 0 auto;
     border: 3px solid #ebebeb;
     padding: 15px;
     box-sizing: content-box;
 }
 
+.banner {
+    width: 100%;
+}
 
 
 .precios {
