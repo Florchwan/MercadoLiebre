@@ -4,39 +4,16 @@
     margin: 0px;
 }
 
-
-header {
-    background-color:#EAC926;
-    display: flex; 
-    
-}
-
-
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    background-color: #ebebeb; 
+    background-color: #ebebeb;
     margin: 0;
-    
 }
 
-
-h3 {
-    font-size: 24px;
-}
-
-p {
-    font-size: 12px;
-}
-
-#search-bar {
-    position: relative;
-    width: 50%;
-    margin: 8px;
-    top: 10%;
-    bottom: 10%;
-    display: block;
-   
+header {
+    background-color: #EAC926;
+    display: flex;
 }
 
 .container {
@@ -44,18 +21,44 @@ p {
     margin: auto;
 }
 
-.container nav{
+.container nav {
     font-size: 12px;
     margin-left: 20px;
 }
 
-.caja1 {
-display: flex;
+
+.cabecera-superior {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+#search-bar {
+    margin: 8px;
+    top: 10%;
+    bottom: 10%;
+}
 
+.cabecera-inferior {
+    display: flex;
+    justify-content: space-between;
+}
 
-div.burger-menu {
+#nav-bar {
+    display: flex;
+}
+
+#nav-bar li {
+    margin: 10px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.burger-menu {
     color: white;
     text-align: center;
     font-size: 24px;
@@ -65,7 +68,19 @@ div.burger-menu {
     width: fit-content;
     margin: auto;
     margin-bottom: 10px;
-    
+}
+
+#login-bar {
+    display: flex;
+}
+
+#login-bar li {
+    margin: 10px;
+    padding: 5px;
+}
+
+.banner {
+    width: 100%;
 }
 
 main {
@@ -77,10 +92,13 @@ main {
     box-sizing: content-box;
 }
 
-.banner {
-    width: 100%;
+h3 {
+    font-size: 24px;
 }
 
+p {
+    font-size: 12px;
+}
 
 .precios {
     font-size: 18px;
@@ -92,11 +110,7 @@ main {
     color: #39b54a;
 }
 
-.product-info {
-    display:flex;
-}
-
-.descripciones {
+.descripcion {
     font-size: 16px;
     color: #666;
 }
@@ -113,4 +127,37 @@ footer {
 
 .copyright {
     color: #666;
+}
+
+
+@media (min-width: 361px) and (max-width: 699px){
+
+    #nav-bar {
+        display: none
+    }
+    
+    #nav-bar li {
+        display: none
+    }
+    
+    a {
+        display: none
+    }
+
+    .burger-menu {
+        display: none
+    }
+    
+    #login-bar {
+        display: none
+    }
+    
+    #login-bar li {
+        display: none
+    }
+
+    .descripcion {
+        display: none
+    }
+    
 }
