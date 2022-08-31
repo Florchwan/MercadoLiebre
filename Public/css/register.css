@@ -96,7 +96,10 @@ a {
     margin: 0px;
 }
 
+/* Registro */
+
 main {
+
     text-align: center;
     width: 90%;
     margin: 0 auto;
@@ -105,88 +108,35 @@ main {
     box-sizing: border-box;
 }
 
+.registrarse {
+    width: 50%;
+    text-align: center;
+    border: 2px solid #666;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: auto;
+    padding: 30px 90px;
+    justify-content: center;
+    background-color: white;
 
-main section h3 {
-    margin: 20px 0px;
 }
 
-.products {
-    width: 100%;
-    flex-wrap: wrap;
+.nombreyapellido, .usuario, .email, .nacimiento, .domicilio,.intereses, .avatar, .password, .passwordconfirm {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 5px;
-}
-
-.image-products {
-    width: 250px;
-}
-
-.product-info {
-    text-align: center;
-    margin: 20px;
-    padding: 10px;
-}
-
-article {
-    text-align: center;
-    background-color: #ffff;
-    margin: 10px;
-}
-
-.articulo:hover {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-}
-
-h3 {
-    font-size: 24px;
-}
-
-p {
-    font-size: 12px;
-}
-
-
-main section article i {
-    display: block;
-    font-size: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding: 5px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #39b54a;
-    background-color: #FFF;
-    border-radius: 50%;
-    position: relative;
-    right: -45%;
-    top: -15px;
-    color: #39b54a;
 }
 
-main article i:hover {
-    rotate: -10deg;
+.perfil {
+    text-align: left;
+    flex-direction: column;
+    
 }
 
-.oferton {
-    display: flex;
-    align-items: center;
-}
-
-.precios {
-    font-size: 18px;
-    width: 30%;
-}
-
-.descuentos {
-    font-size: 16px;
-    color: #39b54a;
-    width: 70%;
-}
-
-.descripcion {
-    font-size: 16px;
-    text-align: center;
-}
 
 footer {
     text-align: center;
@@ -195,7 +145,7 @@ footer {
 }
 
 footer section div {
-    margin: 10px; 
+    margin: 10px;
 }
 
 .footer-icon {
@@ -256,11 +206,11 @@ footer p {
     }
 
     .logo {
-    width: 50%;
+        width: 50%;
     }
 
     .search-bar {
-    width: 50%;
+        width: 50%;
     }
 
 }
@@ -281,7 +231,7 @@ footer p {
         display: block;
     }
 
-    
+
 
 }
 
@@ -298,8 +248,7 @@ footer p {
     }
 
     .logo {
-    width: 45%
+        width: 45%
     }
 
 }
-

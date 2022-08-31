@@ -3,20 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login de Usuario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="css/login.css" rel="stylesheet">
 </head>
 <body>
-    <form action="login" method="POST">
+    <header>
+        <div class="header-container">
+            <div class="cabecera-superior">
+
+                <div class="logo">
+                    <img src="images/logo-mercado-liebre.svg" alt="Logo de Mercado Liebre">
+                </div>
+
+                <div class="search-bar">
+                    <input type="search" name="busqueda" placeholder="Buscar productos, marcas">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="payment-message">
+                    <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+                </div>
+            </div>
+            <nav class="cabecera-inferior">
+                <ul id="nav-bar" type="none">
+                    <li> <a href="#"> Ofertas </a></li>
+                    <li> <a href="#"> Tiendas Oficiales </a></li>
+                    <li> <a href="#"> Vender </a></li>
+                    <li> <a href="#"> Ayuda </a></li>
+                </ul>
+                <ul id="login-bar" type="none">
+                    <li> <a href="#"> Creá tu cuenta<i class="far fa-address-card"></i></a></li>
+                    <li> <a href="#"> Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
+                    <li> <a href="#"> Mis compras<i class="fas fa-shopping-basket"></i></a></li>
+                </ul>
+            </nav>
+            <div class="burger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+    <section class="login">
+     
+    <form action="login" method="GET">
+      <div class = "usuario">
         <p>
         <label for ="usuario">Nombre de usuario: </label>
         <input type = "text" name = "usuario" id = "usuario" placeholder="Nombre de usuario"> 
         </p>
+      </div>
+      <div class = "password">
         <p>
         <label for = "password">Clave: </label>
         <input type="password" id="password" name="password" placeholder="Contraseña">
         </p>
+      </div>
+      <div class = "enviar">
         <button type="submit">Enviar</button>
+      </div>
       </form>
+      </section>
+      </main>
+
+      <footer>
+        <section>
+            <div>
+                <i class="fas fa-credit-card footer-icon"></i>
+                <h4> Pagá con tarjeta o en efectivo </h4>
+            <p> Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                puntos de pago. ¡Y siempre es seguro!</p>
+            </div>
+            <div>
+                <i class="fas fa-gift footer-icon"></i>
+                <h4> Envío gratis desde $ 2.500 </h4>
+            <p> Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                productos. Es un beneficio de Mercado Puntos.</p>
+            </div>
+            <div>
+                <i class="fas fa-user-shield footer-icon"></i>
+                <h4> Seguridad, de principio a fin </h4>
+            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                porque estás siempre protegid@.</p>
+            </div>
+            <div>
+                <h4 class="copyright"> Copyright © 1999-2020 MercadoLiebre S.R.L. </h4>
+            </div>
+        </section>
+    </footer>
+
+
     </body>
   </html>
