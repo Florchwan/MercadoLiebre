@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,15 +14,18 @@
 
 <body>
     <header>
-        <div class="container">
+        <div class="header-container">
             <div class="cabecera-superior">
-                <img class="logo" src="images/logo-mercado-liebre.svg" width="360" alt="Logo de Mercado Liebre">
-
-                <div id="search-bar">
+                <div class="logo">
+                <img src="images/logo-mercado-liebre.svg" alt="Logo de Mercado Liebre">
+                </div>
+                <div class="search-bar">
                     <input type="search" name="busqueda" placeholder="Buscar productos, marcas">
                     <button><i class="fas fa-search"></i></button>
                 </div>
+                <div class = "payment-message">
                 <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+               </div>
             </div>
             <nav class="cabecera-inferior">
                 <ul id="nav-bar" type="none">
@@ -45,102 +47,125 @@
     </header>
 
     <section>
-        <img class="banner" src="images/img-home-banner.jpg" alt="mercadoliebre home">
+        <img src="images/img-home-banner.jpg" alt="mercadoliebre home" class="banner">
     </section>
 
     <main>
         <section class="last-visit">
             <h3> Basado en tu última visita </h3>
             <div class="products">
-                <article class="articulos">
-                    <img src="images/img-cafetera-moulinex.jpg" width="360" alt="Cafetera">
-                    <i class="fas fa-solid fa-truck camion circulo"></i>
-                    <p class="precios"> $6.770</p>
+                <article class = "articulo">
+                    <img src="images/img-cafetera-moulinex.jpg" alt="Cafetera" class="image-products">
+                    <div class = "product-info">
+                    <i class="fas fa-solid fa-truck"></i>
+                    <div class = "oferton">
+                    <p class="precios"> $6.770 </p>
                     <p class="descuentos"> 40% OFF </p>
+                    </div>
                     <h4 class="descripcion"> Cafetera Moulinex </h4>
+                    </div>
                 </article>
-                <article class="articulos">
-                    <img src="images/img-macbook-pro-2019.jpg" width="360" alt="Macbook">
-                    <i class="fas fa-solid fa-truck camion circulo"></i>
+                <article class = "articulo">
+                    <img src="images/img-macbook-pro-2019.jpg" alt="Macbook" class="image-products">
+                    <div class = "product-info">
+                    <i class="fas fa-solid fa-truck"></i>
+                    <div class = "oferton">
                     <p class="precios"> $230.000 </p>
                     <p class="descuentos"> 20% off </p>
-                    <h4 class="descripcion"> MacBook Pro 2019</h4>
+                    </div>
+                    <h4 class="descripcion"> MacBook Pro 2019 </h4>
+                    </div>
                 </article>
-                <article class="articulos">
-                    <img src="images/img-samsung-galaxy-s10.jpg" width="360" alt="Celular Samsung">
-                    <i class="fas fa-solid fa-truck camion circulo"></i>
+                <article class = "articulo">
+                    <img src="images/img-samsung-galaxy-s10.jpg" alt="Celular Samsung" class="image-products">
+                    <div class = "product-info">
+                    <i class="fas fa-solid fa-truck"></i>
+                    <div class = "oferton">
                     <p class="precios"> $70.500 </p>
                     <p class="descuentos"> 10% off </p>
+                    </div>
                     <h4 class="descripcion"> Samsung Galaxy S10 </h4>
+                    </div>
                 </article>
-                <article class="articulos">
-                    <img src="images/img-tv-samsung-smart.jpg" width="360" alt="SmartTv Samsung">
-                    <i class="fas fa-solid fa-truck camion circulo"></i>
+                <article class = "articulo">
+                    <img src="images/img-tv-samsung-smart.jpg" alt="SmartTv Samsung" class="image-products">
+                    <div class = "product-info">
+                    <i class="fas fa-solid fa-truck"></i>
+                    <div class = "oferton">
                     <p class="precios">$23.200 </p>
                     <p class="descuentos"> 5% off </p>
+                    </div>
                     <h4 class="descripcion"> SmartTv Samsung 43" </h4>
+                    </div>
                 </article>
             </div>
         </section>
         <section class="offers">
             <h3> Sección de Ofertas </h3>
             <div class="products">
-                <article class="main-article">
-                    <img src="images/img-cafetera-moulinex.jpg" width="360" alt="Cafetera">
-                    <i class="fas fa-solid fa-truck camion circulo"></i>
+                <article class = "articulo">
+                    <img src="images/img-cafetera-moulinex.jpg" alt="Cafetera" class="image-products">
+                    <div class = "product-info">
+                    <i class="fas fa-solid fa-truck"></i>
+                    <div class = "oferton">
                     <p class="precios"> $6.770 </p>
-                    <p class="descuentos"> 40% OFF </p>
+                    <p class="descuentos"> 40% off </p>
+                    </div>
                     <h4 class="descripcion"> Cafetera Moulinex </h4>
+                   </div>
                 </article>
-                <article class="main-article">
-                    <img src="images/img-macbook-pro-2019.jpg" width="360" alt="Macbook">
-                    <i class="fas fa-solid fa-truck camion circulo"></i>
+                <article class = "articulo">
+                    <img src="images/img-macbook-pro-2019.jpg" alt="Macbook" class="image-products">
+                    <div class = "product-info">
+                    <i class="fas fa-solid fa-truck"></i>
+                    <div class = "oferton">
                     <p class="precios">$230.000 </p>
                     <p class="descuentos"> 20% off </p>
+                    </div>
                     <h4 class="descripcion"> MacBook Pro 2019</h4>
+                    </div>
                 </article>
-                <article class="main-article">
-                    <img src="images/img-samsung-galaxy-s10.jpg" width="360" alt="Celular Samsung">
-                    <i class="fas fa-solid fa-truck camion circulo"></i>
+                <article class = "articulo">
+                    <img src="images/img-samsung-galaxy-s10.jpg" alt="Celular Samsung" class="image-products">
+                    <div class = "product-info">
+                    <i class="fas fa-solid fa-truck"></i>
+                    <div class = "oferton">
                     <p class="precios"> $70.500 </p>
                     <p class="descuentos"> 10% off </p>
+                    </div>
                     <h4 class="descripcion"> Samsung Galaxy S10 </h4>
+                    </div>
                 </article>
-                <article class="main-article">
-                    <img src="images/img-tv-samsung-smart.jpg" width="360" alt="SmartTv Samsung">
-                    <i class="fas fa-solid fa-truck camion circulo"></i>
+                <article class = "articulo">
+                    <img src="images/img-tv-samsung-smart.jpg" alt="SmartTv Samsung" class="image-products">
+                    <div class = "product-info">
+                    <i class="fas fa-solid fa-truck"></i>
+                    <div class = "oferton">
                     <p class="precios"> $23.200 </p>
                     <p class="descuentos"> 5% off </p>
+                    </div>
                     <h4 class="descripcion"> SmartTv Samsung 43" </h4>
+                    </div>
                 </article>
             </div>
         </section>
     </main>
 
     <footer>
-        <ul type="none">
-            <li>
+        <section>
                 <i class="fas fa-credit-card footer-icon"></i>
                 <h4> Pagá con tarjeta o en efectivo </h4>
-            </li>
             <p> Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
                 puntos de pago. ¡Y siempre es seguro!</p>
-            <li>
                 <i class="fas fa-gift footer-icon"></i>
                 <h4> Envío gratis desde $ 2.500 </h4>
-            </li>
             <p> Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
                 productos. Es un beneficio de Mercado Puntos.</p>
-            <li>
                 <i class="fas fa-user-shield footer-icon"></i>
                 <h4> Seguridad, de principio a fin </h4>
-            </li>
             <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
                 porque estás siempre protegid@.</p>
-            <li>
                 <h4 class="copyright"> Copyright © 1999-2020 MercadoLiebre S.R.L. </h4>
-            </li>
-        </ul>
         </section>
     </footer>
 </body>

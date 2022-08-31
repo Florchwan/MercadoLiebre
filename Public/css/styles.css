@@ -16,16 +16,15 @@ header {
     display: flex;
 }
 
-.container {
+.header-container {
     width: 90%;
     margin: auto;
 }
 
-.container nav {
+.header-container nav {
     font-size: 12px;
     margin-left: 20px;
 }
-
 
 .cabecera-superior {
     display: flex;
@@ -34,13 +33,18 @@ header {
 }
 
 .logo {
-    width: 25%;
+    width: 50%;
 }
 
-#search-bar {
+.search-bar {
+    width: 70%;
     margin: 8px;
     top: 10%;
     bottom: 10%;
+}
+
+.payment-message {
+    width: 35%;
 }
 
 .cabecera-inferior {
@@ -85,6 +89,7 @@ a {
 
 .banner {
     width: 100%;
+    margin: 0px;
 }
 
 main {
@@ -93,17 +98,43 @@ main {
     margin: 0 auto;
     border: 3px solid #ebebeb;
     padding: 15px;
-    box-sizing: content-box;
+    box-sizing: border-box;
+}
+
+
+main section h3 {
+    margin: 20px 0px;
 }
 
 .products {
+    width: 100%;
     flex-wrap: wrap;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
 }
 
-.articulos {
-    flex-direction: column
+.image-products {
+    width: 250px;
 }
+
+.product-info {
+    text-align: center;
+    margin: 20px;
+    padding-left: 30px;
+}
+
+article {
+    text-align: center;
+    background-color: #ffff;
+    margin: 10px;
+}
+
+.articulo:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
 
 h3 {
     font-size: 24px;
@@ -113,16 +144,25 @@ p {
     font-size: 12px;
 }
 
-.camion {
-color: #39b54a;
-font-size: 16px;
+
+main section article i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    right: -45%;
+    top: -15px;
+    color:#39b54a;
 }
 
-.circulo {
-    border: 1px solid #39b54a;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
+.oferton {
+    display: flex;
+    justify-content: space-between;
 }
 
 .precios {
@@ -146,6 +186,11 @@ font-size: 16px;
 
 footer {
     text-align: center;
+    font-weight:600;
+}
+
+footer p {
+    font-size: 600;
 }
 
 .copyright {
