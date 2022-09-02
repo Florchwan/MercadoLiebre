@@ -99,60 +99,107 @@ a {
 /* Registro */
 
 main {
-
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    border: 3px solid #ebebeb;
     padding: 15px;
     box-sizing: border-box;
+    font-weight: 600;
+    
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    text-align:center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #666;
+    font-weight: 600;
 }
 
 .registrarse {
-    width: 50%;
+    width: 500px;
     text-align: center;
-    border: 2px solid #666;
     box-sizing: border-box;
-    display: inline-block;
+    display:inline-block;
     margin: auto;
     padding: 30px 90px;
     justify-content: center;
     background-color: white;
-
+    border: 2px solid #666;
+    border-radius: 4px; 
+    box-shadow: #ccc 0 0 15px; 
+    
 }
 
-.nombreyapellido, .usuario, .email, .nacimiento, .domicilio,.intereses, .avatar, .password, .passwordconfirm {
+.form-register {
+    width: 100%;
+   
+} 
+
+
+.nombreyapellido,
+.usuario,
+.email,
+
+.domicilio,
+.intereses,
+.avatar,
+.password,
+.passwordconfirm {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 60%;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     padding: 5px;
+   
 }
 
 .perfil {
     text-align: left;
     flex-direction: column;
-    
+
 }
 
+.nacimiento {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+
+/*footer*/
 
 footer {
     text-align: center;
-    font-weight: 600;
     padding-top: 10px;
+    line-height: 20px;
+    font-weight: 600;
+    background-color: white;
+}
+
+.footer-info h4 {
+    font-size: 16px;
+    font-weight: bold;
 }
 
 footer section div {
-    margin: 10px;
+    margin: 10px; 
 }
 
 .footer-icon {
     font-size: 2em;
     margin-bottom: 10px;
     color: #1259c3;
-    transition: 500ms
+    transition: 500ms;
 }
 
 .footer-icon:hover {
@@ -165,7 +212,9 @@ footer p {
 
 .copyright {
     color: #666;
+    padding-top: 10px;
 }
+
 
 
 /* Media Querrie para Telefonos */

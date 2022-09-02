@@ -51,7 +51,8 @@
 
     <main>
         <section class="registrarse">
-            <form action="registro" method="GET">
+            <h2> Register </h2>
+            <form action="registro" method="GET" class = "form-register">
                 <div class = "nombreyapellido">
                 <p>
                     <label for="nombre"></label>
@@ -67,14 +68,14 @@
             <div class = "email">
                 <p>
                     <label for="email"></label>
-                    <input type="email" name="email" id="email" placeholder="email">
+                    <input type="email" name="email" id="email" placeholder="Email">
                 </p>
             </div>
             <div class = "nacimiento">
                 <p>
-                    <label for="fecha">Fecha de Nacimiento: </label>
+                    <label for="fecha">Fecha de Nacimiento: </label></p>
                     <input type="date" name="fecha">
-                </p>
+                
             </div> 
             <div class = "domicilio">
                 <label for="domicilio">Domicilio: </label>
@@ -117,7 +118,7 @@
         </section>
     </main>
     <footer>
-        <section>
+        <section class = "footer-info">
             <div>
                 <i class="fas fa-credit-card footer-icon"></i>
                 <h4> Pagá con tarjeta o en efectivo </h4>
@@ -136,9 +137,11 @@
             <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
                 porque estás siempre protegid@.</p>
             </div>
-            <div>
-                <h4 class="copyright"> Copyright © 1999-2020 MercadoLiebre S.R.L. </h4>
-            </div>
+        </section>
+        <section class="copyright">
+        <div >
+        <h4> Copyright © 1999-2020 MercadoLiebre S.R.L. </h4>
+        </div>
         </section>
     </footer>
 
